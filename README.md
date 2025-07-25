@@ -1,4 +1,4 @@
-# betadots Slides
+# betadots conference slides
 
 ## from where do we have remark.js ???
 
