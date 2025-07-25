@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Yanone Kaffeesatz Regular"),
+    local("YanoneKaffeesatz-Regular"),
+    url(../fonts/YanoneKaffeesatz-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu Mono Regular"), local("UbuntuMono-Regular"),
+    url(../fonts/UbuntuMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Droid Serif Regular"), local("DroidSerif-Regular"),
+    url(../fonts/DroidSerif-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Sans Regular"), local("NunitoSans-Regular"),
+    url(../fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+
+body {
+  font-family: "Nunito Sans";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.remark-slide-content {
+  background-image: url(../images/blue-skies.jpg);
+  background-size: cover;
+}
+
+.remark-slide-content h1 {
+  font-size: 3em;
+}
+
+.remark-slide-content h2 {
+  font-size: 2em;
+}
+
+.remark-slide-content h3 {
+  font-size: 1.6em;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+
+li p {
+  line-height: 1.25em;
+}
+
+.red {
+  color: #fa0000;
+}
+
+.large {
+  font-size: 2em;
+}
+
+a,
+a>code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+code {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: #e7e8e2;
+  border-radius: 5px;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono";
+}
+
+.remark-code-line-highlighted {
+  background-color: #373832;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-right~p {
+  clear: both;
+}
+
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+
+.inverseold {
+  background: #09194F;
+  background-image: url(../images/dots.png), url(../images/BD_Wortmarke_weiss.png);
+  background-repeat: no-repeat;
+  background-position: top 12px left 20px, top 12px right 20px;
+  background-size: 30%, 10%;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverseold h1,
+.inverseold h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+.inverse,
+.inversedoubleheading {
+  background: #09194F;
+  background-image: url(../images/dots.png), url(../images/BD_Wortmarke_weiss.png), url(../images/circle.png);
+  background-repeat: no-repeat;
+  background-position: top 12px left 20px, top 12px right 20px, center center;
+  background-size: 30%, 10%, 50%;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1,
+.inverse h2,
+.inversedoubleheading h1,
+.inversedoubleheading h2 {
+  color: #f3f3f3;
+}
+
+.inverse h2 {
+  line-height: 0.8em;
+  margin-top: 0.8em;
+}
+
+.inverse h1 {
+  margin-top: 0em;
+  line-height: 1.1em;
+}
+
+.inversedoubleheading h1 {
+  margin-top: -1em;
+  line-height: 1.1em;
+}
+
+.inversedoubleheading h2 {
+  line-height: 0.8em;
+  margin-top: 0.8em;
+}
+
+/* Slide-specific styling */
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+
+#slide-how .slides {
+  font-size: 0.9em;
+  position: absolute;
+  top: 151px;
+  right: 140px;
+}
+
+#slide-how .slides h3 {
+  margin-top: 0.2em;
+}
+
+#slide-how .slides .first,
+#slide-how .slides .second {
+  padding: 1px 20px;
+  height: 90px;
+  width: 120px;
+  -moz-box-shadow: 0 0 10px #777;
+  -webkit-box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 10px #777;
+}
+
+#slide-how .slides .first {
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+}
+
+#slide-how .slides .second {
+  position: relative;
+  background: #fff;
+  z-index: 0;
+}
+
+/* Two-column layout */
+.puppetlogo img {
+  width: 95%;
+}
+
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+
+.left-column h2:last-of-type,
+.left-column h3:last-child {
+  color: #000;
+}
+
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+
+.right-column .something img {
+  width: 100%;
+  height: 550px;
+}
+
+.right-column .smallimg img {
+  width: 88%;
+}
+
+.right-column .verysmallimg img {
+  width: 51%;
+}
+
+.right-column .evensmallerimg img {
+  width: 44%;
+}
+
+.right-column .nowidth img {
+  width: auto;
+}
+
+.right-column-center {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.right-column img {
+  width: 100%;
+}
+
+@page {
+  size: 1920px 1080px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+    size: 1920px 1080px;
+  }
+}
+
+img[alt=speaker] {
+  width: 400px;
+  float: right;
+}
+
+img[alt=company-logo] {
+  position: fixed;
+  bottom: 12px;
+  left: 20px;
+  width: 100px;
+}
