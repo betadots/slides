@@ -22,6 +22,8 @@ A template for creating presentation slides using [remark.js](https://remarkjs.c
 3. **Copy the template files:**
 
    ```bash
+   cp ../../template/css .
+   cp ../../template/images .
    cp ../../template/index.html .
    cp ../../template/favicon.ico .
    cp ../../template/slides.md .
@@ -33,6 +35,8 @@ A template for creating presentation slides using [remark.js](https://remarkjs.c
 
 ### Running the Presentation
 
+#### Using Python's HTTP Server
+
 Start a local web server in your presentation folder:
 
 ```bash
@@ -41,13 +45,28 @@ python3 -m http.server 8000
 
 Then open your browser to `http://localhost:8000`
 
+#### Using Ruby's WEBrick Server
+
+Set up the Ruby environment and start the server:
+
+```shell
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec ruby -run -e httpd 2025/puppet.run -p 8000
+```
+
+Then open your browser to `http://localhost:8000`
+
 ## Template Structure
 
 ```text
 template/
+├── css/
+│   └── custom.css
+├── favicon.ico         # Site favicon
+├── images/
 ├── index.html          # Main HTML template
 ├── slides.md           # Markdown content (example)
-├── favicon.ico         # Site favicon
 └── static/
     ├── css/
     │   └── slides.css  # Custom styling
@@ -60,8 +79,8 @@ template/
 ## Customization
 
 - **Slides Content**: Edit `slides.md` using [remark markdown syntax](https://remarkjs.com/#1)
-- **Styling**: Modify `static/css/slides.css` for custom themes
-- **Images**: Add images to `static/images/` and reference them in your markdown
+- **Styling**: Modify `css/custom.css` for custom themes
+- **Images**: Add images to `images/` and reference them in your markdown
 
 ## Dependencies
 
