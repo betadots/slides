@@ -299,3 +299,26 @@ img[alt=company-logo] {
   left: 20px;
   width: 100px;
 }
+
+img[alt=conference-logo-header] {
+  position: fixed;
+  bottom: 12px;
+  left: 20px;
+  width: 250px;
+}
+
+img[alt=conference-logo-slides] {
+  position: fixed;
+  bottom: 12px;
+  right: 90px;
+  width: 200px;
+}
+
+.div.lizenzblock {
+  font-size: 0.7em;
+  text-align: center;
+  position: fixed;
+  bottom: 12px;
+  left: 20px;
+  right: 20px;
+}
