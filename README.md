@@ -22,8 +22,8 @@ A template for creating presentation slides using [remark.js](https://remarkjs.c
 3. **Copy the template files:**
 
    ```bash
-   cp ../../template/css .
-   cp ../../template/images .
+   cp -r ../../template/css .
+   cp -r ../../template/images .
    cp ../../template/index.html .
    cp ../../template/favicon.ico .
    cp ../../template/slides.md .
