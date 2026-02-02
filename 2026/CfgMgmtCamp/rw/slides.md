@@ -64,8 +64,6 @@ class: center, middle, inverse
 
 * How to migrate?
 
-* Demo
-
 * Q&A
 
 [![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
@@ -131,7 +129,7 @@ class: center, middle, inverse
 
   * It's a simple SSL Certificate Authority (wrapped in Jruby/Ruby)
   * So it's only files on disk
-  * That means we schould be able to just copy them over to OpenVox
+  * That means we should be able to just copy them over to OpenVox
 
 [![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
 [![conference-logo-slides](images/cfgmgmtcamp.png)](https://cfgmgmtcamp.org)
