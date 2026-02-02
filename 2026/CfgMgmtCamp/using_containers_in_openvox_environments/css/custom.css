@@ -1,0 +1,7 @@
+.columns { display:flex; gap:2rem; }
+.column  { flex:1; margin:0; }
+
+img[alt=image-right] {
+  width: 50%;
+  float: right;
+}
