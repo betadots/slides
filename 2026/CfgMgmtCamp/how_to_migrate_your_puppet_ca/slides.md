@@ -314,30 +314,18 @@ Final thoughts:
 
 ---
 
-# Demo Time!
+## Q&A
+
+* Thank you for your attention!
+
+* Any questions?
+
+* Find me:
+  * 🙋 at the conference
+  * 🐙 GitHub: [@rwaffen](https://github.com/rwaffen)
+  * 💌 Email: <rw@betadots.de>
+  * 🦣 fosstodon: [@rwaffen](https://fosstodon.org/@rwaffen)
 
 [![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
 [![conference-logo-slides](images/cfgmgmtcamp.png)](https://cfgmgmtcamp.org)
 .div.lizenzblock[[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
-
-???
-
----
-
-# Q&A
-
-[![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
-[![conference-logo-slides](images/cfgmgmtcamp.png)](https://cfgmgmtcamp.org)
-.div.lizenzblock[[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
-
-???
-
----
-
-# Thank You!
-
-[![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
-[![conference-logo-slides](images/cfgmgmtcamp.png)](https://cfgmgmtcamp.org)
-.div.lizenzblock[[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
-
-???
