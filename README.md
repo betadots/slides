@@ -4,34 +4,11 @@ A template for creating presentation slides using [remark.js](https://remarkjs.c
 
 ## Quick Start
 
-### Setting Up a New Presentation
-
-1. **Create a new folder for your slides:**
-
-   ```bash
-   mkdir -p 2025/DemoConf
-   cd 2025/DemoConf
-   ```
-
-2. **Link the static assets:**
-
-   ```bash
-   ln -s ../../template/static static
-   ```
-
-3. **Copy the template files:**
-
-   ```bash
-   cp -r ../../template/css .
-   cp -r ../../template/images .
-   cp ../../template/index.html .
-   cp ../../template/favicon.ico .
-   cp ../../template/slides.md .
-   ```
-
-4. **Edit your content:**
-   - Modify `slides.md` to add your presentation content
-   - The markdown file will be automatically loaded by the HTML template
+- Run `ruby new_slide.rb 2025/DemoConf/rwaffen/my_title` to create a new presentation folder with the necessary files
+- Modify `slides.md` to add your presentation content
+- Modify the local index.html for the title and description of your presentation
+- The markdown file will be automatically loaded by the HTML template
+- Run `create_index.rb` to update the index of presentations
 
 ### Running the Presentation
 
@@ -52,7 +29,7 @@ Set up the Ruby environment and start the server:
 ```shell
 bundle config set --local path vendor/bundle
 bundle install
-bundle exec ruby -run -e httpd 2025/puppet.run -p 8000
+bundle exec ruby -run -e httpd 2025/DemoConf/rwaffen/my_title -p 8000
 ```
 
 Then open your browser to `http://localhost:8000`
