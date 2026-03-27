@@ -8,7 +8,6 @@ A template for creating presentation slides using [remark.js](https://remarkjs.c
 - Modify `slides.md` to add your presentation content
 - Modify the local index.html for the title and description of your presentation
 - The markdown file will be automatically loaded by the HTML template
-- Run `create_index.rb` to update the index of presentations
 
 ### Running the Presentation
 
