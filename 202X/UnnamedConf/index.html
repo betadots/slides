@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why clean code matters?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="static/css/slides.css" >
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="static/js/remark-latest.min.js"></script>
+    <script>
+      // Load markdown content from external file
+      fetch('slides.md')
+        .then(response => response.text())
+        .then(markdown => {
+          document.getElementById('source').textContent = markdown;
+          var slideshow = remark.create({
+            // Set the slideshow display ratio
+            // Default: '4:3'
+            // Alternatives: '16:9', ...
+            ratio: "16:9",
+            highlightStyle: "github"
+          });
+        })
+        .catch(error => {
+          console.error('Error loading slides:', error);
+          // Fallback content in case the file fails to load
+          document.getElementById('source').textContent = 'Error loading slides content.';
+        });
+    </script>
+  </body>
+</html>

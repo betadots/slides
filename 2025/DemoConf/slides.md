@@ -25,3 +25,22 @@ class: center, middle, inverse
 [![company-logo](static/images/logo-1181x1181.png)](https://betadots.de)
 
 ???
+
+---
+
+.left-column[
+## PE
+]
+
+.right-column[
+* What is Puppet Inc most famous for?
+
+  * Naming things!
+
+```sh
+#!/bin/bash
+pushd /tmp/control-repo || exit
+git branch -m production old_prod
+git branch -m "$PT_control_repo_branch" production
+```
+]
