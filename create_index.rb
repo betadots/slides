@@ -7,10 +7,10 @@ slide_dirs = Dir.glob('**/slides.md')
 html = <<~HTML
   <html>
     <head>
-      <title>Slides Index</title>
+      <title>betadots Conference Slides</title>
     </head>
     <body>
-      <h1>betadots Slides Index</h1>
+      <h1>betadots Conference Slides</h1>
       <ul>
         #{slide_dirs.map { |dir| "<li><a href=\"#{dir}/\">#{dir}</a></li>" }.join("\n      ")}
       </ul>
